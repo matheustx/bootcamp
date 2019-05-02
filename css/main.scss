@@ -1,0 +1,68 @@
+$color1: #4750B8;
+$color2: #5266C0;
+$color3: #6275CC;
+$color4: #7489CE;
+$color5: #8FA3D9;
+$color6: #AAB6D6;
+$color7: #00ABE3;
+$color8: #121417;
+$color9: #ececec;
+$color10: #869ab8;
+$color11: #ffffff;
+$color12: #384c74;
+
+$theme-colors: (
+    'color1': $color1,
+    'color2': $color2,
+    'color3': $color3,
+    'color4': $color4,
+    'color5': $color5,
+    'color6': $color6,
+    'color7': $color7,
+    'color8': $color8,
+    'color9': $color9,
+    'color10': $color10,
+    'color11': $color11,
+    'color12': $color12,
+);
+
+.btn-animate{
+    transition: 0.5s;
+}
+
+
+.about-title>h3{
+    font-size: 1.3125rem;
+    font-weight: 400;
+    line-height: 1.4;
+}
+
+.zone{
+    transform: perspective(600px) rotateY(-13deg);
+}
+
+.font-clean{
+    font-weight: 400;
+    line-height: 1.4;
+}
+.icon>svg {
+    width: 3rem;
+    height: 3rem;
+}
+
+.btn-animate:hover{
+    -webkit-box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
+}
+
+.card>.card-img-top{
+    border-bottom-left-radius: 100% 15%;
+    border-bottom-right-radius: 100% 15%;
+}
+
+
+$enable-responsive-font-sizes: true !important;
+$enable-rounded: true;
+
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
